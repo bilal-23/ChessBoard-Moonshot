@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import styles from "./board.module.css";
+import styles from "./Board.module.css";
 
 const blockLetters = ["a", "b", "c", "d", "e", "f", "g", "h"];
 const blockNumbers = [1, 2, 3, 4, 5, 6, 7, 8];
