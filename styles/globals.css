@@ -59,3 +59,27 @@ a:visited {
     font-size: 50%;
   }
 }
+
+@keyframes fadeIn {
+  0% {
+    scale: 0.3;
+    opacity: 0;
+  }
+  50% {
+    scale: 1.2;
+    opacity: 1;
+  }
+  100% {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+@keyframes themeAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

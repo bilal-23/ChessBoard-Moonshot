@@ -10,9 +10,6 @@ const Navbar = () => {
                 <Image src={Logo} alt="Navbar Logo" height={50} width={50} priority={true} />
                 <p>Chessboard</p>
             </div>
-            <div className="theme-container">
-                hello
-            </div>
         </nav>
     )
 }
