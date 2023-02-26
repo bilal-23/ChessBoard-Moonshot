@@ -20,7 +20,7 @@ export default function Document() {
         {/* Open Graph Tag */}
         <meta property="og:title" name='title' content="Chessboard" key="og-title" />
         <meta property="og:description" name='description' content="Chessboard made for moonshot" key="og-description" />
-        <meta property="og:image" name='image' content="/images/banner.webp" key="og-image" />
+        <meta property="og:image" name='image' content="/images/banner.jpg" key="og-image" />
         <meta property="og:url" content="https://chess-board-moonshot-bilal-mansuri.vercel.app/" key="og-url" />
         <meta property="og:site_name" content="Chessboard" key="og-sitename" />
         <meta property="og:type" content="website" key="og-type" />
@@ -32,7 +32,7 @@ export default function Document() {
         <meta name="twitter:creator" content="@bilalmansuri2e" key="twitter-creator" />
         <meta name="twitter:title" content="Chessboard" key="twitter-title" />
         <meta name="twitter:description" content="Chessboard made for moonshot" key="twitter-description" />
-        <meta name="twitter:image" content="/images/banner.webp" key="twitter-image" />
+        <meta name="twitter:image" content="/images/banner.jpg" key="twitter-image" />
         <meta name="twitter:card" content="Chessboard made for moonshot" key="twitter-card" />
 
       </Head>
