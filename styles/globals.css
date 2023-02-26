@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --black: #000000;
+  --dark: #161616;
+  --neutral100: #eaf0f2;
+  --neutral200: #d6dfe4;
+  --neutral300: #c1ccd6;
+  --neutral400: #adb8c9;
+  --neutral500: #98a1bb;
+  --neutral600: #7a8196;
+  --neutral700: #5b6170;
+  --neutral800: #2d3039;
+  --neutral900: #1e2026;
+  --red: #ff3344;
+  --yellow: #f9c94e;
+  --blue: #b4d7f9;
+  --green: #2fefb1;
+  --orange-accent: #fd7346;
+  --orange-accent-light: #ff9e7d;
+  --theme_bg: #f7f5f2;
+  --grayish: #dfdfde;
+  --bluish: #8d8daa;
+  --pinkish: #f56d91;
+  --orange: #ff4800;
+  --background: #0c0b0d;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  min-height: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--neutral800);
+  color: var(--neutral100);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+a,
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 50%;
+  }
+}
